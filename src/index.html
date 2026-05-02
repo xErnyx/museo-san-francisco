@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ================= CONFIGURACIÓN BÁSICA DEL DOCUMENTO ================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan David Figueroa Miño - Museo de San Francisco de Quito</title>
+
+  <!-- ================= IMPORTACIÓN DE FUENTES (GOOGLE FONTS) ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- ================= ENLACE A HOJA DE ESTILOS CSS ================= -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= ENCABEZADO PRINCIPAL (HERO BANNER) ================= -->
+<header>
+  <h1>Museo Fray Jodoco Ricke</h1>
+  <h2>Complejo Arquitectónico de San Francisco</h2>
+  <p class="descripcion-hero">Adéntrate en el "Escorial de los Andes". Un recorrido inmersivo por más de cuatro siglos de historia, donde el arte barroco de la Escuela Quiteña cobra vida en el corazón del Centro Histórico de Quito.</p>
+
+  <div class="info-rapida-hero">
+    <span>📍 Plaza de San Francisco, Quito</span>
+    <span class="separador">|</span>
+    <span>🕒 Lunes a Sábado: 09:00 - 17:00</span>
+  </div>
+</header>
+
+<!-- ================= MENÚ DE NAVEGACIÓN ================= -->
+<nav>
+  <a href="#historia">Historia y Obras</a>
+  <a href="#multimedia">Galería Multimedia</a>
+  <a href="#ubicacion">Ubicación y Vistas</a>
+  <a href="#evaluacion">Evalúa tus Conocimientos</a>
+</nav>
+
+<!-- ================= CONTENEDOR PRINCIPAL DEL SITIO ================= -->
+<div class="container">
+
+  <!-- ================= SECCIÓN 1: HISTORIA Y OBRAS ================= -->
+  <section id="historia">
+    <h2>Acerca del Complejo Histórico</h2>
+    <p>Conocido popularmente como "El Escorial de los Andes", el conjunto arquitectónico de San Francisco es la estructura monumental más grande construida en América durante la época colonial. Su edificación comenzó en 1537, apenas tres años después de la fundación española de la ciudad, bajo el mando del franciscano Fray Jodoco Ricke.</p>
+
+    <p>Este lugar no solo fue un centro de fe, sino también de educación y agricultura. Fue en los atrios de este complejo donde Fray Jodoco Ricke sembró por primera vez el trigo en Sudamérica, utilizando semillas traídas en un cántaro de barro.</p>
+
+    <!-- Enlace externo (Requisito de la rúbrica) -->
+    <p class="nota-destacada">Para profundizar en los detalles arquitectónicos, puedes leer el artículo completo en <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_(Quito)" target="_blank">Wikipedia sobre la Iglesia de San Francisco</a>.</p>
+
+    <h3>Tesoros de la Escuela Quiteña</h3>
+    <p>El museo alberga aproximadamente 3,500 obras de arte colonial que representan la máxima expresión del sincretismo indígena y español:</p>
+
+    <!-- Lista numerada (Requisito de la rúbrica) -->
+    <ol>
+      <li><strong>Escultura:</strong> Obras magistrales de Caspicara y la famosa "Virgen Alada de Quito" de Bernardo de Legarda.</li>
+      <li><strong>Pintura:</strong> Lienzos invaluables de Miguel de Santiago que adornan los pasillos del convento.</li>
+      <li><strong>Mobiliario:</strong> El impresionante coro tallado en madera de cedro del siglo XVII, de estilo mudéjar.</li>
+      <li><strong>Cervecería:</strong> Instalaciones conservadas de la primera cervecería franciscana de Sudamérica (1566).</li>
+    </ol>
+
+    <h3>Horarios y Tarifas de Ingreso</h3>
+    <!-- Tabla de datos (Requisito de la rúbrica) -->
+    <table>
+      <tr>
+        <th>Día</th>
+        <th>Horario de Atención</th>
+        <th>Costo Nacionales</th>
+        <th>Costo Extranjeros</th>
+      </tr>
+      <tr>
+        <td>Lunes a Sábado</td>
+        <td>09:00 - 17:00</td>
+        <td>$3.00</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Domingos y Feriados</td>
+        <td>09:00 - 14:00</td>
+        <td>$3.00</td>
+        <td>$3.00</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ================= SECCIÓN 2: GALERÍA MULTIMEDIA ================= -->
+  <section id="multimedia">
+    <h2>Galería y Recorrido Virtual</h2>
+
+    <!-- Galería de Imágenes -->
+    <div class="galeria-imagenes">
+      <figure>
+        <img src="../public/img/Iglesia_de_San_Francisco_Noche_5.jpg" alt="Iglesia de San Francisco iluminada en la noche">
+        <figcaption>Esplendor nocturno de la fachada manierista en la plaza.</figcaption>
+      </figure>
+      <figure>
+        <img src="../public/img/Jardin_de_San_Francisco_2.jpg" alt="Jardín interior del claustro franciscano">
+        <figcaption>Claustro principal y jardines donde paseaban los monjes.</figcaption>
+      </figure>
+    </div>
+
+    <!-- Reproductor de Video -->
+    <div class="video-container">
+      <h3>Documental del Complejo</h3>
+      <video controls poster="../public/img/Interior_de_San_Francisco_6.jpg">
+        <source src="../public/video/recorrido.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video en HTML5.
+      </video>
+    </div>
+
+    <!-- Reproductor de Audio en Bucle (Requisito de la rúbrica: Música) -->
+    <div class="audio-container" style="margin-top: 30px; text-align: center;">
+      <h3>Música Ambiental del Convento</h3>
+      <audio controls loop style="width: 100%; max-width: 400px;">
+        <source src="../public/audio/musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio en HTML5.
+      </audio>
+    </div>
+  </section>
+
+  <!-- ================= SECCIÓN 3: UBICACIÓN Y MAPA ================= -->
+  <section id="ubicacion">
+    <h2>Ubicación y Vistas</h2>
+    <!-- Mosaico interactivo tipo Google Maps -->
+    <div class="mosaico-lugar">
+      <div class="mosaico-item mosaico-izq" style="background-image: url('../public/img/Interior_de_San_Francisco_4.jpg');">
+        <div class="etiqueta-mosaico">Ver el Altar Mayor</div>
+      </div>
+
+      <!-- Mapa incrustado (Iframe) con Pin Rojo -->
+      <div class="mosaico-item mosaico-der-arriba">
+        <iframe src="https://maps.google.com/maps?q=Iglesia%20de%20San%20Francisco,%20Quito&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="mosaico-item mosaico-der-abajo" style="background-image: url('../public/img/Iglesia_de_San_Francisco_Dia_1.jpg');">
+        <div class="etiqueta-mosaico">Vista de la Plaza</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECCIÓN 4: FORMULARIO Y EVALUACIÓN ================= -->
+  <section id="evaluacion" class="form-section">
+    <h2>Evaluación Interactiva</h2>
+    <p>Demuestra lo que has aprendido en este blog respondiendo a las siguientes 5 preguntas:</p>
+
+    <!-- Cuestionario de 5 preguntas -->
+    <form id="quizForm">
+      <div class="pregunta-bloque">
+        <p><strong>1. ¿Quiénes son los escultores más destacados de este museo?</strong></p>
+        <label><input type="radio" name="p1" value="0"> Oswaldo Guayasamín y Eduardo Kingman</label><br>
+        <label><input type="radio" name="p1" value="1"> Caspicara y Bernardo de Legarda</label>
+      </div>
+
+      <div class="pregunta-bloque">
+        <p><strong>2. ¿A qué movimiento cultural pertenecen las 3,500 obras del convento?</strong></p>
+        <label><input type="radio" name="p2" value="1"> Escuela Quiteña</label><br>
+        <label><input type="radio" name="p2" value="0"> Renacimiento Italiano</label>
+      </div>
+
+      <div class="pregunta-bloque">
+        <p><strong>3. ¿Qué industria pionera en Sudamérica se albergaba aquí en 1566?</strong></p>
+        <label><input type="radio" name="p3" value="1"> La primera cervecería franciscana</label><br>
+        <label><input type="radio" name="p3" value="0"> La primera imprenta comercial</label>
+      </div>
+
+      <div class="pregunta-bloque">
+        <p><strong>4. Según la información del sitio, ¿Cuál es el horario los domingos?</strong></p>
+        <label><input type="radio" name="p4" value="0"> 09:00 - 17:00</label><br>
+        <label><input type="radio" name="p4" value="1"> 09:00 - 14:00</label>
+      </div>
+
+      <div class="pregunta-bloque">
+        <p><strong>5. ¿Qué cultivo introdujo Fray Jodoco Ricke sembrándolo en este complejo?</strong></p>
+        <label><input type="radio" name="p5" value="1"> El trigo</label><br>
+        <label><input type="radio" name="p5" value="0"> El cacao</label>
+      </div>
+
+      <!-- Botón que ejecuta la función JavaScript -->
+      <button type="button" onclick="evaluarQuiz()">Calificar Prueba</button>
+    </form>
+
+    <!-- Contenedor vacío donde aparecerá la calificación dinámica -->
+    <div id="resultado"></div>
+
+    <!-- ================= CERTIFICADO DEL CURSO EDX ================= -->
+    <div class="certificado-box">
+      <h3>Certificación del Desarrollador</h3>
+      <img src="../public/img/certificado-edx.png" alt="Progreso del curso W3Cx HTML5 and CSS Fundamentals en edX">
+      <p>Evidencia de progreso (88%) en el curso: <strong>W3Cx HTML5 and CSS Fundamentals</strong>.</p>
+    </div>
+
+  </section>
+</div> <!-- Fin del contenedor principal -->
+
+<!-- ================= PIE DE PÁGINA (FOOTER) ================= -->
+<footer>
+  <p>&copy; 2026 Juan David Figueroa Miño. Todos los derechos reservados.</p>
+  <p>Trabajo Autónomo - Curso W3Cx: HTML5 and CSS Fundamentals</p>
+</footer>
+
+<!-- ================= ENLACE AL ARCHIVO JAVASCRIPT ================= -->
+<script src="js/app.js"></script>
+</body>
+</html>
